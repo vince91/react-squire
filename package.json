@@ -1,0 +1,22 @@
+{
+  "name": "react-squire",
+  "version": "0.1.0",
+  "description": "React wrapper for Squire wysiwyg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vince91/react-squire"
+  },
+  "author": "Vincent Timofti",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.0.38",
+    "@types/react-dom": "^16.0.4",
+    "prettier": "^1.10.2",
+    "typescript": "^2.7.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "squire-rte": "^1.8.11"
+  }
+}

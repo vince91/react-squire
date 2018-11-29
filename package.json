@@ -10,8 +10,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack -p --config webpack.dist.config.js",
-    "build-example":
-      "webpack-dev-server --hot --config webpack.example.config.js --content-base ./example"
+    "build-example": "webpack-dev-server --hot --config webpack.example.config.js --content-base ./example"
   },
   "devDependencies": {
     "@types/react": "^16.0.38",
@@ -28,6 +27,6 @@
     "webpack-dev-server": "^2.11.1"
   },
   "dependencies": {
-    "squire-rte": "^1.8.11"
+    "squire-rte": "^1.9.0"
   }
 }

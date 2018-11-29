@@ -3383,9 +3383,10 @@ split-string@^3.0.1, split-string@^3.0.2:
   dependencies:
     extend-shallow "^3.0.0"
 
-squire-rte@^1.8.11:
-  version "1.8.11"
-  resolved "https://registry.yarnpkg.com/squire-rte/-/squire-rte-1.8.11.tgz#2776731c51376a66c1e75ef348ffe6458b43d57b"
+squire-rte@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/squire-rte/-/squire-rte-1.9.0.tgz#0cd4f7b024ee397d7904b61055f38be38947042c"
+  integrity sha512-gC4UAyUw28hwiM1YQnOKESJUtyvSmwIFRhw79lA5NlVgkchm+VxUJXCreuVEPANdgnnj5cKSy1MPQwID08aFAQ==
 
 sshpk@^1.7.0:
   version "1.13.1"

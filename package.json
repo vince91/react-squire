@@ -10,21 +10,22 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack -p --config webpack.dist.config.js",
-    "build-example": "webpack-dev-server --hot --config webpack.example.config.js --content-base ./example"
+    "build-example": "webpack-dev-server --hot --mode development --config webpack.example.config.js --content-base ./example"
   },
   "devDependencies": {
-    "@types/react": "^16.0.38",
-    "@types/react-dom": "^16.0.4",
-    "compression-webpack-plugin": "^1.1.6",
-    "prettier": "^1.10.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "ts-loader": "^3.5.0",
-    "typescript": "^2.7.1",
-    "uglifyjs-webpack-plugin": "^1.1.8",
-    "webpack": "^3.11.0",
-    "webpack-bundle-analyzer": "^2.10.0",
-    "webpack-dev-server": "^2.11.1"
+    "@types/react": "^16.7.8",
+    "@types/react-dom": "^16.0.11",
+    "compression-webpack-plugin": "^2.0.0",
+    "prettier": "^1.15.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.1.6",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.26.1",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
     "squire-rte": "^1.9.0"
